@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+!.env.example
+discord-purchase-auth-bot/data/bot-config.json
+data/bot-config.json

@@ -1,0 +1,20 @@
+{
+  "name": "testing-vape-discord-bot-host",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "discord-purchase-auth-bot/src/index.ts",
+  "scripts": {
+    "start": "tsx discord-purchase-auth-bot/src/index.ts",
+    "dev": "tsx watch discord-purchase-auth-bot/src/index.ts",
+    "typecheck": "tsc -p discord-purchase-auth-bot/tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "tsx": "^4.23.13"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.5",
+    "typescript": "^5.9.3"
+  }
+}
